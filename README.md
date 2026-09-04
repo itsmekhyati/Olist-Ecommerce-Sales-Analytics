@@ -95,15 +95,10 @@ The Power BI model connects transactional, customer, product, seller, payment, a
 
 ---
 
-## Repository Structure
+# OrderPulse — E-Commerce Delivery & Customer Satisfaction Analytics
 
-```text
-Olist-Ecommerce-Sales-Analytics/
-│
-├── README.md
-├── Olist_Ecommerce_Sales_Analytics.pbix
-│
-├── Page1_Executive_Overview.png
-├── Page2_Product_Sales.png
+A data analytics project built using the Olist Brazilian E-Commerce Public Dataset to analyze e-commerce orders, sales, delivery performance, customer satisfaction, and seller performance.
+
+The project combines Python-based data analysis with an interactive Power BI dashboard.
 ├── Page3_Customer_Order.png
 └── Page4_Delivery_Seller.png
