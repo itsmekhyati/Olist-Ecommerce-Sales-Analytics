@@ -1,104 +1,73 @@
-# Olist E-Commerce Sales & Performance Analytics
-
-A professional Power BI dashboard built using the Olist Brazilian E-Commerce dataset to analyze sales performance, products, customers, orders, delivery performance, and sellers.
-
-## Dashboard Preview
-
-### Executive Overview
-![Executive Overview](Page1_Executive_Overview.png)
-
-### Product & Sales Analysis
-![Product & Sales Analysis](Page2_Product_Sales.png)
-
-### Customer & Order Analysis
-![Customer & Order Analysis](Page3_Customer_Order.png)
-
-### Delivery & Seller Performance
-![Delivery & Seller Performance](Page4_Delivery_Seller.png)
-
----
-
-##  Project Objective
-
-The objective of this project is to transform raw e-commerce data into an interactive business intelligence dashboard that helps understand:
-
-- Overall sales and revenue performance
-- Product and category performance
-- Customer and payment behavior
-- Order trends and customer satisfaction
-- Delivery performance
-- Seller performance
-- Operational efficiency
-
----
-
-## 🛠️ Tools & Technologies
-
-- **Power BI**
-- **DAX**
-- **Power Query**
-- **Microsoft Excel**
-- **Python / Pandas** for data exploration and analysis
-- **Olist Brazilian E-Commerce Dataset**
-
----
-
-##  Dashboard Pages
-
-### 1. Executive Overview
-Provides a high-level view of the business through KPIs and sales trends.
-
-**Key metrics:**
-- Total Revenue
-- Total Orders
-- Average Order Value
-- Items Sold
-- Delivered Orders
-- On-Time Delivery Rate
-
-### 2. Product & Sales Analysis
-Analyzes product categories, pricing, freight costs, order volume, revenue contribution, and customer ratings.
-
-### 3. Customer & Order Analysis
-Explores payment methods, installment behavior, order trends, customer ratings, and customer satisfaction.
-
-### 4. Delivery & Seller Performance
-Evaluates delivery performance and seller reliability using on-time delivery, late orders, delivery status, seller order volume, and seller performance metrics.
-
----
-
-##  Key Business Insights
-
-- The dashboard provides a consolidated view of e-commerce sales and operational performance.
-- Product categories can be compared based on revenue, order volume, pricing, freight cost, and customer ratings.
-- Payment method and installment analysis helps identify customer purchasing behavior.
-- Delivery performance analysis highlights on-time and late deliveries.
-- Seller-level analysis helps identify high-volume and reliable sellers.
-- Monthly trends provide visibility into changes in sales and order activity over time.
-
----
-
-## Data Model
-
-The project uses multiple Olist datasets including:
-
-- Orders
-- Order Items
-- Customers
-- Products
-- Sellers
-- Payments
-- Reviews
-- Product Category Translation
-
-The Power BI model connects transactional, customer, product, seller, payment, and review data to enable cross-functional analysis.
-
----
-
 # OrderPulse — E-Commerce Delivery & Customer Satisfaction Analytics
 
-A data analytics project built using the Olist Brazilian E-Commerce Public Dataset to analyze e-commerce orders, sales, delivery performance, customer satisfaction, and seller performance.
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black)
+![Python](https://img.shields.io/badge/Python-Analysis-3776AB?logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white)
+![DAX](https://img.shields.io/badge/DAX-KPI%20Analytics-107C10)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
+![Olist](https://img.shields.io/badge/Dataset-Olist%20Brazilian%20E--Commerce-blue)
 
-The project combines Python-based data analysis with an interactive Power BI dashboard.
-├── Page3_Customer_Order.png
-└── Page4_Delivery_Seller.png
+> **An end-to-end data analytics project combining Python-based data exploration with an interactive Power BI dashboard to analyze e-commerce sales, delivery performance, customer satisfaction, and seller performance.**
+
+---
+
+## 📌 Project Overview
+
+**OrderPulse** is an end-to-end e-commerce analytics project built using the **Brazilian E-Commerce Public Dataset by Olist**.
+
+The project transforms raw transactional data into meaningful business insights using **Python, Pandas, Power Query, Power BI, and DAX**.
+
+The analysis focuses on four major areas:
+
+- Sales & revenue performance
+- Product & category performance
+- Customer & order behavior
+- Delivery & seller performance
+
+The final output is a **4-page Power BI dashboard** designed to provide a clear view of business performance and operational efficiency.
+
+---
+
+## 🎯 Project Objective
+
+The primary objective of OrderPulse is to understand how an e-commerce business is performing across sales, customers, products, deliveries, and sellers.
+
+The project aims to answer questions such as:
+
+- How is revenue changing over time?
+- How many orders are being processed?
+- What is the average order value?
+- Which product categories generate the most revenue?
+- Which categories have higher prices or freight costs?
+- Which payment methods are most commonly used?
+- How does customer satisfaction vary?
+- What percentage of orders are delivered on time?
+- How many orders are delivered late?
+- Which sellers have the highest order volumes?
+- How does seller order volume relate to delivery performance?
+- How can operational performance be monitored through KPIs?
+
+---
+
+# 🔄 End-to-End Workflow
+
+```text
+Olist Raw Dataset
+       ↓
+Python / Pandas
+       ↓
+Data Understanding & Exploration
+       ↓
+Data Cleaning & Transformation
+       ↓
+Business Analysis
+       ↓
+Power Query
+       ↓
+Power BI Data Model
+       ↓
+DAX Measures & KPIs
+       ↓
+Interactive Dashboard
+       ↓
+Business Insights
